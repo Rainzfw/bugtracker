@@ -1,0 +1,8 @@
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #FF9933;
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+}

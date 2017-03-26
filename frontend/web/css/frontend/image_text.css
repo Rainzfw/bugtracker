@@ -1,0 +1,17 @@
+.imgshow{
+    background:white;
+    position:relative;
+    overflow:hidden;
+    font-family: '方正舒体';
+    cursor:pointer;
+}
+.imgshowbox{
+    position:absolute;
+    width:100%;
+    opacity:0.9;
+    background:#fff;
+    color:#000;
+    left:0;
+    bottom: 0px;
+    display: block;
+}

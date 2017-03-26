@@ -1,0 +1,16 @@
+.navbar-inverse .navbar-nav > li > a{
+    color: #00CC00;
+}
+.nav-tabs > li > a {
+    color: #00CC00;
+}
+.carousel-indicators .active {
+    background-color: #00CC00;
+}
+.list-group-item > .badge {
+    background-color: #00CC00;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #00cc00;
+    border-color: #00cc00;
+}

@@ -1,0 +1,9 @@
+.pagination > li > a, .pagination > li > span{
+    color: #FF9900;
+}
+.glyphicon, .btn-default{
+    color: #FF9900;
+}
+.form-control{
+    border-radius:8px;
+}

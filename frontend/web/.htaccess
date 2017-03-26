@@ -1,0 +1,7 @@
+#Apache将调用额外的系统函数来检查符号链接,每次针对文件名的请求都将触发一次检查.
+    Options +FollowSymLinks
+    IndexIgnore */*
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . index.php
